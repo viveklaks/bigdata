@@ -1,0 +1,4 @@
+eclipse
+sbt test
+test
+package

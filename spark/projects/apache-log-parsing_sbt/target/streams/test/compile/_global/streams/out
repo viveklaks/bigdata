@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pragati\Documents\GitHub\bigdata\spark\projects\apache-log-parsing_sbt\src\test\scala\com\cloudxlab\logparsing\log-parser-test.scala:30:22: not found: value ipaccesslogs[0m
+[0m[[0m[31merror[0m] [0m[0m      var cleanips = ipaccesslogs.map(extractIP(_)).filter(isClassA)[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

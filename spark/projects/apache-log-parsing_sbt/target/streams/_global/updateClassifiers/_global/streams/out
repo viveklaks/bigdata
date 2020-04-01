@@ -1,0 +1,27 @@
+[0m[[0m[0mdebug[0m] [0m[0m"not up to date. inChanged = true, force = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mUpdating ProjectRef(uri("file:/C:/Users/Pragati/Documents/GitHub/bigdata/spark/projects/apache-log-parsing_sbt/"), "apache-log-parsing_sbt")...[0m
+[0m[[0m[31merror[0m] [0m[0mlmcoursier.internal.shaded.coursier.error.FetchError$DownloadingArtifacts: Error fetching artifacts:[0m
+[0m[[0m[31merror[0m] [0m[0mhttps://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4-javadoc.jar: wrong checksum: C:\Users\Pragati\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.10.4\scala-compiler-2.10.4-javadoc.jar (expected SHA-1 4951e0aec7209288986d17400d8ecc9797f84fef in C:\Users\Pragati\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.10.4\.scala-compiler-2.10.4-javadoc.jar__sha1, got 14a146ef53b6680f06f7c4e9c5744ff535ca8d78)[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.internal.shaded.coursier.Artifacts$.$anonfun$fetchArtifacts$14(Artifacts.scala:302)[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.internal.shaded.coursier.util.Task$.$anonfun$flatMap$2(Task.scala:14)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.concurrent.Future.$anonfun$flatMap$1(Future.scala:307)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Thread.java:748)[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: lmcoursier.internal.shaded.coursier.cache.ArtifactError$WrongChecksum: wrong checksum: C:\Users\Pragati\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.10.4\scala-compiler-2.10.4-javadoc.jar (expected SHA-1 4951e0aec7209288986d17400d8ecc9797f84fef in C:\Users\Pragati\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.10.4\.scala-compiler-2.10.4-javadoc.jar__sha1, got 14a146ef53b6680f06f7c4e9c5744ff535ca8d78)[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.internal.shaded.coursier.cache.FileCache.$anonfun$validateChecksum$4(FileCache.scala:702)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.Success.$anonfun$map$1(Try.scala:255)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.Success.map(Try.scala:213)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Thread.java:748)[0m
+[0m[[0m[31merror[0m] [0m[0m([31mupdateClassifiers[0m) lmcoursier.internal.shaded.coursier.error.FetchError$DownloadingArtifacts: Error fetching artifacts:[0m
+[0m[[0m[31merror[0m] [0m[0mhttps://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4-javadoc.jar: wrong checksum: C:\Users\Pragati\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.10.4\scala-compiler-2.10.4-javadoc.jar (expected SHA-1 4951e0aec7209288986d17400d8ecc9797f84fef in C:\Users\Pragati\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.10.4\.scala-compiler-2.10.4-javadoc.jar__sha1, got 14a146ef53b6680f06f7c4e9c5744ff535ca8d78)[0m
